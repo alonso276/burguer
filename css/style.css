@@ -1,4 +1,5 @@
 @import url(reset.css);
+
 /*
     handlee y monstserrat 400, 700
     font-family: 'Handlee', cursive;
@@ -361,3 +362,44 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 }
 
 /* fin main section about us */
+
+
+/**our blogs***/
+
+ #ourblog {
+    padding: 2.125em 0.825em;
+}
+
+ #ourblog h2 {
+    color: black;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2em;
+    text-align: center;
+}
+
+
+#ourblog h2 span {
+    color: var(--color-principal);
+}
+
+ #ourblog .underline {
+    position: relative;
+    width: 5em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: 700;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+ #ourblog .underline hr {
+    position: absolute;
+    width: 100%;
+    top: -0.063em;
+    border-color: var(--color-principal);
+}
+
+ #ourblog .row {
+    flex-wrap: wrap;
+}
+
