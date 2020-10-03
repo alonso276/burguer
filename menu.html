@@ -10,89 +10,43 @@
 
 <body>
 
-    <div class="wrapper">
-        <header>
-            <div class="nav_top">
-                <div class="container row">
-                    <div>
-                        <a href="#">
-                            <i class="fas fa-envelope"></i>
-                            <span>rover@gmail.com</span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <i class="fas fa-phone"></i>
-                            <span>91 456 44 55</span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <i class="fas fa-shopping-cart"></i>
-                            <span>Shopping cart</span>
-                        </a>
-                    </div>
-                    <div>
-                        <a href="#">
-                            <i class="fas fa-user-circle"></i>
-                            <span>Account</span>
-                        </a>
-                    </div>
-                </div>
-            </div>
-            <nav>
-                <div class="container row">
-                    <div class="logo">
-                        <a href="index.html">
-                            <img src="images/logo.jpg" alt="rover hamburgueseria logo">
-                        </a>
-                    </div>
-                    <div class="hamburguesa">
-                        <div></div>
-                        <div></div>
-                        <div></div>
-                    </div>
-                    <ul>
-                        <li><a class="activo" href="">Home</a></li>
-                        <li><a href="blog.html">Blog</a></li>
-                        <li><a href="">Menu</a></li>
-                        <li><a href="">Item 4</a></li>
-                        <li><a href="">Item 5</a></li>
-                    </ul>
-                </div>
-            </nav>
-        </header>
-
-       
+   
     <main>
+
+     <div class="wrappermenu">
 
         <div class="container" id="ourmenu">
 
-        <h1>Today's menu</h1>
+            <h2 id="top">Today's <span>Menu</span></h2>
+            <div class="underline">
+                <hr noshade="noshade" />
+                <span>X</span>
+            </div>
 
    
 
-        <nav>
+         <nav>
          <ul>
-            <li><a href=#">Breakfast</a></li>
-            <li><a href=#">Lunch</a></li>
-            <li><a href=#">Dinner</a></li>
-            <li><a href=#">Others</a></li>
+            <li><a href="#" class="active">Breakfast</a></li>
+            <li><a href="#">Lunch</a></li>
+            <li><a href="#">Dinner</a></li>
+            <li><a href="#">Others</a></li>
         </ul>
         </nav>
     
         <section class="menu">
-        
+            
+            <div class="header">
             <h3>Today's hot offers</h3>
             <hr>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat, debitis lorem lorem lorem lorem.</p>
-        
+            </div>
             <article class="offers">
 
                     <img src="images/t1.jpg" alt="">
                     <h5>Chicken burguer with Cheese and Butter   $95</h5>
                     <p>Vegetable and chicken burguer with extra butter</p>
-                    <a href="#">Order now</a>
+                    <a class="enlace" href="#"> Order now<i class="fas fa-long-arrow-alt-right"></i></a>
 
             </article>
 
@@ -101,9 +55,17 @@
                 <img src="images/t4.jpg" alt="">
                 <h5>Coffee And tea with Milk and Chocolate   $30</h5>
                 <p>Vegetable and chicken burguer with extra butter</p>
-                <a href="#">Order now</a>
+                <a class="enlace" href="#"> Order now<i class="fas fa-long-arrow-alt-right"></i></a>
 
             </article>
+
+
+            <div class="navtop">
+
+                <a href="#top"><i class="fas fa-arrow-up"></i></a>
+             
+
+            </div>
 
 
         </section>
@@ -114,13 +76,14 @@
 
        
 
-        <footer>
+        <!-- <footer>
             <div class="container">
                 <p>Copyright &copy; 2020 - <a href="">Aviso Legal</a> - <a href="#">Cookies</a></p>
             </div>
-        </footer>
+        </footer> -->
     </div>
 
+</div>
 </body>
 
 </html>
