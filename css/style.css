@@ -560,6 +560,12 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     padding:1em 0em;
 }
 
+.samples article:last-child {
+
+    display:none;
+    
+}
+
  #ourmenu .navtop i{
 
     color:white;
@@ -573,14 +579,24 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     
 }
 
+
+
 @media(min-width: 48em) {
-   .tablet{
+   
+   
+   
+    .tablet{
        display:flex;
+       justify-content: space-evenly;
       
+   }
+   .navtop{
+       display:none;
    }
    
 
 }
+
 
 /** end section menu********/
 
