@@ -371,7 +371,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     padding: 2.125em 0.825em;
 }
 
- section #ourblog h2 {
+    #ourblog h2 {
     color: black;
     font-family: var(--fuenteSecundaria);
     font-size: 2em;
@@ -406,61 +406,69 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
  #ourblog article {
     width: 50%;
-    border-bottom: 0px;
-    border-left: 1px solid var(--gris);
     padding: 1.825em;
-    margin-bottom: 1em;
+    
 }
 
 
 #ourblog article h3{
     font-size:1.2em;
+    padding-top:1em;
+    padding-bottom:1em;
 }
+
 #ourblog article a{
 
     color:var(--color-principal);
     text-decoration:none;
+    
 }
 
 #ourblog article h5{
 
     color:var(--color-principal);
+    padding-bottom:1em;
 }
 
+#ourblog article p{
+    padding-bottom:1em;
+}
 #ourblog article .date{
 
 
     background-color: var(--color-principal);
-    padding: 1em;
+    padding: 1em 1em 0em 1em;
     display:inline-block;
     color:white;
 }
-p span {
+#ourblog p span {
     display: block;
+    margin-top:0.3em;
   }
 
-article .position{
+  #ourblog article .position{
     position:relative;
 }
 
-article .date{
+#ourblog article .date{
     position:absolute;
     top:0;
-    
+
 }
 
 
 @media(min-width: 48em) {
     #ourblog article {
         width: 30%;
-        border-bottom: 0px;
-        border-left: 1px solid var(--gris);
         padding: 1.825em;
         margin-bottom: 1em;
+        font-size:0.8em;
+    }
+    #ourblog article h3{
+        font-weight:600;
     }
    
 
 }
     
-
 /** end section our blogs***/
