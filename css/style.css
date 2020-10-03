@@ -573,5 +573,15 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     
 }
 
+@media(min-width: 48em) {
+   .tablet{
+       display:flex;
+      
+   }
+   
+
+}
 
 /** end section menu********/
+
+    
