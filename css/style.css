@@ -313,6 +313,7 @@ main #ourservices article h3 {
 
 /* fin main section ourservices */
 
+
 /* inicio main section about us */
 
 main #aboutus {
@@ -364,13 +365,13 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 /* fin main section about us */
 
 
-/**our blogs***/
+/** start section our blogs***/
 
  #ourblog {
     padding: 2.125em 0.825em;
 }
 
- #ourblog h2 {
+ section #ourblog h2 {
     color: black;
     font-family: var(--fuenteSecundaria);
     font-size: 2em;
@@ -403,3 +404,63 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     flex-wrap: wrap;
 }
 
+ #ourblog article {
+    width: 50%;
+    border-bottom: 0px;
+    border-left: 1px solid var(--gris);
+    padding: 1.825em;
+    margin-bottom: 1em;
+}
+
+
+#ourblog article h3{
+    font-size:1.2em;
+}
+#ourblog article a{
+
+    color:var(--color-principal);
+    text-decoration:none;
+}
+
+#ourblog article h5{
+
+    color:var(--color-principal);
+}
+
+#ourblog article .date{
+
+
+    background-color: var(--color-principal);
+    padding: 1em;
+    display:inline-block;
+    color:white;
+}
+p span {
+    display: block;
+  }
+
+article .position{
+    position:relative;
+}
+
+article .date{
+    position:absolute;
+    top:0;
+    
+}
+
+
+@media(min-width: 48em) {
+    #ourblog article {
+        width: 30%;
+        border-bottom: 0px;
+        border-left: 1px solid var(--gris);
+        padding: 1.825em;
+        margin-bottom: 1em;
+    }
+   
+
+}
+    
+
+/** end section our blogs***/
