@@ -479,12 +479,12 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
     background-color:black;
     position:relative;
+    color:white;
 }
 
 #ourmenu{
 
     background-color:black;
-    color:white;
     max-width:700px;
 }
 
@@ -574,10 +574,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 }
 
 @media(min-width: 48em) {
-   .tablet{
-       display:flex;
-      
-   }
+  
    
 
 }
