@@ -475,7 +475,8 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
 /** start section menu********/
 
- .wrappermenu{
+
+ .menu{
 
     background-color:black;
     position:relative;
@@ -485,10 +486,10 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 #ourmenu{
 
     background-color:black;
-    max-width:700px;
+   
 }
 
-#ourmenu h2{
+.menu h2{
     color: white;
     font-family: var(--fuenteSecundaria);
     font-size: 2em;
@@ -571,10 +572,11 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     color:white;
     display:inline-block;
     background-color: var(--color-principal);
-    padding:1em;
+    padding:0.7em;
     position: absolute;
-    bottom:0;
+    bottom:60px;
     right:0;
+    
     
     
 }
@@ -582,23 +584,47 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
 
 @media(min-width: 48em) {
-<<<<<<< HEAD
-  
-=======
-   
-   
-   
-    .tablet{
-       display:flex;
-       justify-content: space-evenly;
-      
-   }
-   .navtop{
-       display:none;
-   }
->>>>>>> 26823e4a76506f2c45d2a818fe98122049191d0b
-   
 
+    .navtop{
+        display:none;
+    }
+
+    
+.samples article:last-child {
+
+    display:block;
+    
+}
+    .flex{
+        display:flex;
+    
+    }
+    .child1{
+        width:30%;
+    }
+
+    .child1 .listing{
+        margin:1em;
+        margin-bottom:4em;
+    }
+    
+    .food{
+        display:flex;
+        flex-direction:row;
+        width:70%;   
+    }
+   
+    .left{
+        width:28%;
+        margin-top:2em;
+        
+    }
+
+    .right{
+        
+         margin-left:1em;
+    }     
+    
 }
 
 
