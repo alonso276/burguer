@@ -530,12 +530,10 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 #ourmenu nav ul li a{
     text-decoration:none;
     color:white;
-    
-
 
 }
 
-#ourmenu li .active{
+#ourmenu li:hover{
     background-color:var(--color-principal);
     display:block;
     padding:0.2em;
@@ -570,7 +568,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     color: var(--color-principal);
 }
 
-.samples article #pizza {
+.samples  #pizza {
 
     display:none;
   
