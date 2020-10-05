@@ -443,9 +443,13 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     
     text-align:center;
     color:white;
+<<<<<<< HEAD
     font-weight:700;
     font-size:0.8em;
 
+=======
+    
+>>>>>>> feature-menu
 }
 #ourblog p span {
     display: block;
@@ -462,6 +466,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     top:0;
 
 }
+
 
 
 @media(min-width: 48em) {
@@ -483,3 +488,194 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 }
     
 /** end section our blogs***/
+
+/** start section menu********/
+
+
+ .menu{
+
+    background-color:black;
+    position:relative;
+    color:white;
+}
+
+#ourmenu{
+
+    background-color:black;
+   
+}
+
+.menu h2{
+    color: white;
+    font-family: var(--fuenteSecundaria);
+    font-size: 2em;
+    text-align: center;
+    padding-top:1em;
+
+}
+
+
+#ourmenu h2 span {
+    color: var(--color-principal);
+}
+
+ #ourmenu .underline {
+    position: relative;
+    width: 5em;
+    margin: 0 auto;
+    color: var(--color-principal);
+    font-weight: 700;
+    margin-bottom: 2em;
+    text-align: center;
+}
+
+ #ourmenu .underline hr {
+    position: absolute;
+    width: 100%;
+    top: -0.063em;
+    border-color: var(--color-principal);
+}
+
+#ourmenu nav{
+    padding-bottom:2em;
+}
+#ourmenu nav ul li{
+    padding:0.4em;
+}
+#ourmenu nav ul li a{
+    text-decoration:none;
+    color:white;
+
+}
+
+#ourmenu li:hover{
+    background-color:var(--color-principal);
+    display:block;
+    padding:0.2em;
+
+    
+}
+#ourmenu .header h3{
+
+    font-size:1.2em;
+    font-weight:700;
+    
+}
+#ourmenu .header p{
+
+   line-height:1.2;
+    
+}
+
+#ourmenu .header hr{
+    width:50px;
+    text-align:left;
+    display:inline-block;
+    border-color:var(--color-principal)
+    
+}
+
+#ourmenu article{
+
+    padding: 1.5em;
+    
+}
+
+#ourmenu .hide{
+    display:none;
+}
+
+#ourmenu article h5{
+    font-weight:700;
+    padding:1em 0em;
+    
+}
+#ourmenu article h5 span{
+    color: var(--color-principal);
+}
+
+.samples  #pizza {
+
+    display:none;
+  
+}
+
+.samples .food:last-child{
+    margin-bottom:2em;
+}
+
+ #ourmenu .navtop i{
+
+    color:white;
+    display:inline-block;
+    background-color: var(--color-principal);
+    padding:0.7em;
+    position: absolute;
+    bottom:60px;
+    right:0;
+    
+    
+    
+}
+
+
+
+@media(min-width: 48em) {
+
+    .navtop{
+        display:none;
+    }
+
+    
+.samples #pizza {
+
+    display:block;
+    
+}
+    .flex{
+        display:flex;
+    
+    }
+    .child1{
+        width:30%;
+        margin-left:3em;
+        margin-right:2em;
+        margin-top:2em;
+    }
+
+    .child1 .listing{
+        margin:1em;
+        margin-bottom:5em;
+    }
+    
+    .food{
+        display:flex;
+        flex-direction:row;
+        width:80%;   
+       
+    }
+   
+    .left{
+        width:20%;
+        margin-top:2em;
+        
+    }
+
+    .right{
+
+        margin-top:1em;
+        margin-left:1em;
+        display:inline-block;
+
+        
+         
+    }     
+    #ourmenu .hide{
+        display:block;
+    }
+}
+
+
+/** end section menu********/
+
+    
