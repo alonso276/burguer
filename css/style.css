@@ -521,6 +521,9 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     border-color: var(--color-principal);
 }
 
+#ourmenu nav{
+    padding-bottom:2em;
+}
 #ourmenu nav ul li{
     padding:0.4em;
 }
@@ -555,17 +558,22 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 #ourmenu article{
 
     padding: 1.5em;
+    
 }
 
 #ourmenu article h5{
     font-weight:700;
     padding:1em 0em;
+    
+}
+#ourmenu article h5 span{
+    color: var(--color-principal);
 }
 
-.samples article:last-child {
+.samples article #pizza {
 
     display:none;
-    
+  
 }
 
  #ourmenu .navtop i{
@@ -602,28 +610,35 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     }
     .child1{
         width:30%;
+        margin-left:3em;
+        margin-right:2em;
+        margin-top:2em;
     }
 
     .child1 .listing{
         margin:1em;
-        margin-bottom:4em;
+        margin-bottom:5em;
     }
     
     .food{
         display:flex;
         flex-direction:row;
-        width:70%;   
+        width:80%;   
     }
    
     .left{
-        width:28%;
+        width:20%;
         margin-top:2em;
         
     }
 
     .right{
+
+        margin-top:1em;
+        margin-left:1em;
+
         
-         margin-left:1em;
+         
     }     
     
 }
