@@ -458,6 +458,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 }
 
 
+
 @media(min-width: 48em) {
     #ourblog article {
         width: 30%;
@@ -542,7 +543,14 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 }
 #ourmenu .header h3{
 
-    font-weight:bold;
+    font-size:1.2em;
+    font-weight:700;
+    
+}
+#ourmenu .header p{
+
+   line-height:1.2;
+    
 }
 
 #ourmenu .header hr{
@@ -559,6 +567,10 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     
 }
 
+#ourmenu .hide{
+    display:none;
+}
+
 #ourmenu article h5{
     font-weight:700;
     padding:1em 0em;
@@ -570,8 +582,12 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
 .samples  #pizza {
 
-    display:block;
+    display:none;
   
+}
+
+.samples .food:last-child{
+    margin-bottom:2em;
 }
 
  #ourmenu .navtop i{
@@ -597,7 +613,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     }
 
     
-.samples article:last-child {
+.samples #pizza {
 
     display:block;
     
@@ -622,6 +638,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
         display:flex;
         flex-direction:row;
         width:80%;   
+       
     }
    
     .left{
@@ -634,11 +651,14 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
         margin-top:1em;
         margin-left:1em;
+        display:inline-block;
 
         
          
     }     
-    
+    #ourmenu .hide{
+        display:block;
+    }
 }
 
 
