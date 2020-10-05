@@ -439,7 +439,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     position:absolute;
     background-color: var(--color-principal);
     opacity:0.8;
-    padding:1em;
+    padding:0.5em;
     
     text-align:center;
     color:white;
