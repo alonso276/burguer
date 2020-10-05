@@ -376,6 +376,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
     font-family: var(--fuenteSecundaria);
     font-size: 2em;
     text-align: center;
+    
 }
 
 
@@ -421,6 +422,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
     color:var(--color-principal);
     text-decoration:none;
+    font-weight:600;
     
 }
 
@@ -428,6 +430,7 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
     color:var(--color-principal);
     padding-bottom:1em;
+    font-weight:600;
 }
 
 #ourblog article p{
@@ -437,9 +440,12 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
 
 
     background-color: var(--color-principal);
+    opacity:0.8;
     padding: 1em 1em 0em 1em;
     display:inline-block;
     color:white;
+    font-weight:700;
+    font-size:0.8em;
 }
 #ourblog p span {
     display: block;
@@ -468,6 +474,10 @@ main #aboutus .columna:hover .marco, main #aboutus .columna:hover .marco img {
         font-weight:600;
     }
    
+    #ourblog article .date{
+
+        font-size:1.2em;
+    } 
 
 }
     
